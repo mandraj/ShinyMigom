@@ -1,0 +1,29 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+@import 'base/variables';
+
+* {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/regal';
+@import 'blocks/advantages';
+@import 'blocks/mobileserv';
+@import 'blocks/works';
+@import 'blocks/map';
+@import 'blocks/price';
+@import 'blocks/feed';
+@import 'blocks/partners';
+@import 'blocks/footer';
+@import 'blocks/btn';
+@import 'blocks/hamburger';
+@import 'blocks/media';

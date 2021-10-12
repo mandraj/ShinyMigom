@@ -1,0 +1,17 @@
+.hamburger {
+    /* position: absolute; */
+    display: none;
+    width: 48px;
+    height: 48px;
+    background: #17181C;
+    border-radius: 5px;
+    padding: 13px 12px;
+    justify-content: space-around;
+    flex-direction: column;
+    cursor: pointer;
+    span {
+        width: 25px;
+        height: 2px;
+        background: #FFFFFF;
+    }
+}
