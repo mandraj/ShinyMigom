@@ -1,0 +1,80 @@
+.advantages {
+    padding: 94px 0 233px 0;
+    min-height: 100px;
+    background: url("../img/advantages_bg.jpg") center (center/cover) no-repeat;
+    &__title {
+        text-align: center;
+        color: #17181C;
+        font-weight: 800;
+        font-size: 45px;
+        line-height: 55px;
+    }
+    &__wrapper {
+        margin-top: 163px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__list {
+        list-style-type: none;
+        color: #17181C;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 23px;
+        width: 289px;
+        &-item {
+            position: relative;
+            margin-top: 20px;
+            padding: 20px;
+            border-bottom: 1px dotted;
+            &_last {
+                padding: 28px;
+            }
+        }
+    }
+    &__image {
+        position: relative;
+        margin-top: 45px;
+        img {
+            position: inherit;
+            z-index: 10;
+        }
+    }
+    &__circle {
+        position: absolute;
+        width: 178.33px;
+        height: 178.33px;
+        border: 60px solid $main-color;
+        border-radius: 100%;
+        right: -39px;
+        top: -13px;
+        z-index: 0;
+    }
+
+}
+
+.divider {
+    position: absolute;
+    width: 182.25px;
+    height: 0px;
+    border-bottom: 1px dotted #000;
+    &-first {
+        transform: rotate(44.33deg);
+        right: -157px;
+        bottom: -64px;
+    }
+    &-second {
+        transform: rotate(-44.33deg);
+        right: -157px;
+        bottom: 63px;
+    }
+    &-third {
+        transform: rotate(-44.33deg);
+        left: -158px;
+        bottom: -65px;
+    }
+    &-four {
+        transform: rotate(44.33deg);
+        left: -158px;
+        top: 15px;
+    }
+}

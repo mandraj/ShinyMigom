@@ -1,0 +1,40 @@
+.works {
+    min-height: 600px;
+    
+    &__title {
+        color: #17181C;
+        font-weight: 800;
+        font-size: 45px;
+        text-align: center;
+        margin-top: 94px;
+    }
+    &__wrapper {
+        padding: 71px 110px 0 33px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__list {
+        color: #17181C;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    &__image {
+        position: relative;
+        img {
+            position: inherit;
+            z-index: 10;
+        }
+    }
+    &__circle {
+        position: absolute;
+        width: 178.33px;
+        height: 178.33px;
+        border: 45px solid #5bbfc8;
+        border-radius: 100%;
+        right: 18px;
+        top: -45px;
+        z-index: 0;
+    }
+}

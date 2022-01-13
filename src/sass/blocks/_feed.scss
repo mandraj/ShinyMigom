@@ -1,0 +1,32 @@
+.feed {
+    &__title {
+        color: #17181C;
+        font-weight: 800;
+        font-size: 45px;
+        line-height: 55px;
+        text-align: center;
+        margin-top: 90px;
+    }
+    &__wrapper {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(100px, 520px));
+        grid-template-rows: repeat(2, minmax(100px, 310px));
+        gap: 28px 20px;
+    }
+    &__video {
+        background: #C4C4C4;
+        border-radius: 5px;
+        min-height: 255px;
+    }
+    &__descr {
+        color: #000000;
+        font-weight: 800;
+        font-size: 22px;
+        span {
+            display: block;
+            font-weight: 300;
+            font-size: 18px;
+        }
+    }
+}
