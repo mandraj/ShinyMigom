@@ -18,10 +18,26 @@
         font-weight: 700;
         font-size: 22px;
         line-height: 35px;
+        transform: translate(101%, 0px);
+            opacity: 0;
+            transition: all .8s ease 0s;
+            &_animated {
+                opacity: 1;
+                transform: translate(0px, 0px);
+                transition: all 1.1s ease 0s;
+            }
     }
 
     &__image {
         position: relative;
+        transform: translate(-101%, 0px);
+            opacity: 0;
+            transition: all .8s ease 0s;
+            &_animated {
+                opacity: 1;
+                transform: translate(0px, 0px);
+                transition: all 1.1s ease 0s;
+            }
         img {
             position: inherit;
             z-index: 10;

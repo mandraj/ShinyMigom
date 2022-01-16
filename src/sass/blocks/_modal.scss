@@ -1,0 +1,51 @@
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, .56);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 404px;
+    min-height: 402px;
+    background: #000;
+    padding: 29px 29px 29px 29px;
+    border-radius: 35px;
+    &__title {
+        color: #fff;
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 25px;
+        text-align: center;
+        margin-top: 26px;
+    }
+    &__placeholder {
+        color: #fff;
+    }
+    &__form {
+        margin-top: 50px;
+        input {
+            margin-top: 10px;
+            padding: 10px;
+            width: 100%;
+            height: 60px;
+        }
+    }
+    &__close {
+        color: #fff;
+        font-size: 35px;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 0;
+        right: 31px;
+        cursor: pointer;
+    }
+}

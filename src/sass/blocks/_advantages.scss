@@ -21,6 +21,26 @@
         font-size: 20px;
         line-height: 23px;
         width: 289px;
+        &-left {
+            transform: translate(-101%, 0px);
+            opacity: 0;
+            transition: all .8s ease 0s;
+            &_animated {
+                opacity: 1;
+                transform: translate(0px, 0px);
+                transition: all 1.1s ease 0s;
+            }
+        }
+        &-right {
+            transform: translate(101%, 0px);
+            opacity: 0;
+            transition: all .8s ease 0s;
+            &_animated {
+                opacity: 1;
+                transform: translate(0px, 0px);
+                transition: all 1.1s ease 0s;
+            }
+        }
         &-item {
             position: relative;
             margin-top: 20px;
@@ -34,9 +54,17 @@
     &__image {
         position: relative;
         margin-top: 45px;
+        opacity: 0;
+        transform: translate(0px, 120%);
+        transition: all .8s ease 0s;
         img {
             position: inherit;
             z-index: 10;
+        }
+        &_animated {
+            opacity: 1;
+            transform: translate(0px, 0px);
+            transition: all .8s ease 0s;
         }
     }
     &__circle {

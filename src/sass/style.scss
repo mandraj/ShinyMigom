@@ -8,11 +8,16 @@
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .container {
     position: relative;
     max-width: 1050px;
     margin: 0 auto;
 }
+
 
 @import 'blocks/promo';
 @import 'blocks/regal';
@@ -27,3 +32,4 @@
 @import 'blocks/btn';
 @import 'blocks/hamburger';
 @import 'blocks/media';
+@import 'blocks/modal';
