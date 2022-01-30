@@ -21,7 +21,9 @@ const burger = () => {
         for(let link of promoLink) {
             link.classList.toggle('promo__link-active');
         }
+        phoneBtn.addEventListener('click', toggleMenu);
     };
+
 
     for(let link of promoLink) {
         link.addEventListener('click', toggleMenu);

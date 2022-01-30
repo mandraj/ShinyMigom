@@ -10,7 +10,6 @@ const animate = () => {
                     const animItemHeight = animItem.offsetHeight;
                     const animItemOffset = offset(animItem).top;
                     const animStart = 15;
-                    console.log(animItemHeight);
                     let animItemPoint = window.innerHeight - animItemHeight / animStart;
 
                     if (animItemHeight > window.innerHeight) {
@@ -39,7 +38,6 @@ const animate = () => {
     animation('.advantages__list-left', 'advantages__list-left_animated');
     animation('.works__image', 'works__image_animated');
     animation('.works__list', 'works__list_animated');
-    animation('.price__item', 'price__item_animated');
 }
 
 export default animate;
