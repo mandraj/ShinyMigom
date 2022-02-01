@@ -7,6 +7,9 @@
     border-radius: 5px;
     border: none;
     background: $main-color;
+    &:hover {
+        transform: translate(5,5);
+    }
     &__promo {
         background: #5BBFC8;
         width: 214px;

@@ -530,6 +530,7 @@
     }
 
     .footer {
+        margin-top: 70px;
         &-top {
             align-items: center;
             flex-direction: column;
@@ -548,6 +549,9 @@
         }
         &__phone {
             margin-top: 21px;
+        }
+        &__sosial {
+            display: flex;
         }
     }
 
