@@ -64,6 +64,7 @@ const modal = () => {
     bindModal('.button_price', '.overlay', '.overlay .modal__close');
     bindModal('.button__promo', '.overlay', '.overlay .modal__close');
     bindModal('.button__subtitle', '.overlay', '.overlay .modal__close');
+    bindModal('.feed__video-play', '.overlay__video', '.overlay__video .modal__close');
 };
 
 export default modal;   
